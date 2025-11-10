@@ -1,4 +1,4 @@
-# StarletControls
+# Starlet Controls
 A lightweight input management library for Starlet projects with OpenGL engines in mind.
 
 ## Features
@@ -10,8 +10,11 @@ A lightweight input management library for Starlet projects with OpenGL engines 
 ```cmake
 include(FetchContent)
 
-FetchContent_Declare(StarletControls GIT_REPOSITORY https://github.com/Masonlet/StarletControls.git GIT_TAG main)
-FetchContent_MakeAvailable(StarletControls)
+FetchContent_Declare(starlet_controls
+  GIT_REPOSITORY https://github.com/Masonlet/starlet-controls.git 
+  GIT_TAG main
+)
+FetchContent_MakeAvailable(starlet_controls)
 
-target_link_libraries(YourAppName PRIVATE StarletControls)
+target_link_libraries(app_name PRIVATE starlet_controls)
 ```

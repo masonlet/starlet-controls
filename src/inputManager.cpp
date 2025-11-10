@@ -1,4 +1,4 @@
-#include "StarletControls/inputManager.hpp"
+#include "starlet-controls/inputManager.hpp"
 
 namespace Starlet::Input {
 	void InputManager::reset() {

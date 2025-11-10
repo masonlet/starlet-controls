@@ -1,4 +1,4 @@
-#include "StarletControls/mouseManager.hpp"
+#include "starlet-controls/mouseManager.hpp"
 
 #include <GLFW/glfw3.h>
 

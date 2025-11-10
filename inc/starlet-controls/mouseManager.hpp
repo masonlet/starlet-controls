@@ -1,6 +1,6 @@
 #pragma once
 
-#include "StarletMath/vec2.hpp"
+#include "starlet-math/vec2.hpp"
 
 #include <array>
 #include <vector>

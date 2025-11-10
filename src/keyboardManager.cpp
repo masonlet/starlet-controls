@@ -1,4 +1,4 @@
-#include "StarletControls/keyboardManager.hpp"
+#include "starlet-controls/keyboardManager.hpp"
 
 #include <GLFW/glfw3.h>
 
