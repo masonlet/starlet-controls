@@ -1,7 +1,7 @@
 #pragma once 
 
-#include "keyboardManager.hpp"
-#include "mouseManager.hpp"
+#include "keyboard_manager.hpp"
+#include "mouse_manager.hpp"
 
 namespace Starlet {
   namespace Graphics {
